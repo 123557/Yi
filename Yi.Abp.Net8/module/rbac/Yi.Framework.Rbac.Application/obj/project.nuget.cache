@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "igzEjJIt/k6GyMwNJgYJW3p2jhMyLDf/nY0iPPZtanZJSI06po0YVFzLBrWVdX3az0/lo3RU2ZfkLGDHkklMQw==",
+  "dgSpecHash": "/TUIu432i6k5vNySRhHNlxMZsGLfoP6TylXSwY15OhUjte2ew2wOdwRlQl5Xgldnn7/7IcNydvXV6CrMhRt7/g==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application\\Yi.Framework.Rbac.Application.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application\\Yi.Framework.Rbac.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\alibabacloud.endpointutil\\0.1.1\\alibabacloud.endpointutil.0.1.1.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\alibabacloud.gatewayspi\\0.0.2\\alibabacloud.gatewayspi.0.0.2.nupkg.sha512",

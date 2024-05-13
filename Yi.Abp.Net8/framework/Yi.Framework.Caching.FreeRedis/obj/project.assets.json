@@ -4608,11 +4608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Caching.FreeRedis\\Yi.Framework.Caching.FreeRedis.csproj",
+      "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Caching.FreeRedis\\Yi.Framework.Caching.FreeRedis.csproj",
       "projectName": "Yi.Framework.Caching.FreeRedis",
-      "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Caching.FreeRedis\\Yi.Framework.Caching.FreeRedis.csproj",
+      "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Caching.FreeRedis\\Yi.Framework.Caching.FreeRedis.csproj",
       "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-      "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Caching.FreeRedis\\obj\\",
+      "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Caching.FreeRedis\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\share\\NuGetPackages"

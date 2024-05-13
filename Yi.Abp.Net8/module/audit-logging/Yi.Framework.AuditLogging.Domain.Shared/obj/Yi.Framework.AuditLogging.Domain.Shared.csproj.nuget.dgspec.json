@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj": {}
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj": {}
   },
   "projects": {
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
         "projectName": "Yi.Framework.AuditLogging.Domain.Shared",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"

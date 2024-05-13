@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g9psLDmsO7OL6QN4kKUSOpvl+a9kqq/O2kwxjKKf/U3x5XtZROsdtiDUep/tE39o8PcmCMinMDGH1J5t13789A==",
+  "dgSpecHash": "3zjtZZQ+3XnuMmEzIXoSdSNHjZvR7Id5PaBoBAhq286rHCUuFI+aJjpTiFkJfBJnsXqkxvoHzk+rPSicU2+1pQ==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Caching.FreeRedis\\Yi.Framework.Caching.FreeRedis.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Caching.FreeRedis\\Yi.Framework.Caching.FreeRedis.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\freeredis\\1.2.14\\freeredis.1.2.14.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\freeredis.distributedcache\\1.2.5\\freeredis.distributedcache.1.2.5.nupkg.sha512",

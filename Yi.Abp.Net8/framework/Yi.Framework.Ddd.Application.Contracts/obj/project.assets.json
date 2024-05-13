@@ -4285,11 +4285,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj",
+      "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj",
       "projectName": "Yi.Framework.Ddd.Application.Contracts",
-      "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj",
+      "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-      "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\obj\\",
+      "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\share\\NuGetPackages"
@@ -4310,8 +4310,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
             }
           }
         }

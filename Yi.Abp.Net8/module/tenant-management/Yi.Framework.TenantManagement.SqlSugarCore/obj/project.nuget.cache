@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bmdoCrI/wS1NkJ4DyW+7vepHTGwUzAORglaoi8ENtG8MOp25AdEFuikpmWP65muAcz3Rijo+SLA+FZDjJH/1Wg==",
+  "dgSpecHash": "Prk36gnoocZPCmWm0zNfnS5AYg8K/NTK5gqZIi/fG4zuyHVpJdI6jKfEOWqhVPzyvsVLeTI1I+Gm5u1vDQSI3Q==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\tenant-management\\Yi.Framework.TenantManagement.SqlSugarCore\\Yi.Framework.TenantManagement.SqlSugarCore.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\tenant-management\\Yi.Framework.TenantManagement.SqlSugarCore\\Yi.Framework.TenantManagement.SqlSugarCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\asynckeyedlock\\6.2.2\\asynckeyedlock.6.2.2.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",

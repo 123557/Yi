@@ -8456,11 +8456,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.SqlSugarCore\\Yi.Framework.Rbac.SqlSugarCore.csproj",
+      "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.SqlSugarCore\\Yi.Framework.Rbac.SqlSugarCore.csproj",
       "projectName": "Yi.Framework.Rbac.SqlSugarCore",
-      "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.SqlSugarCore\\Yi.Framework.Rbac.SqlSugarCore.csproj",
+      "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.SqlSugarCore\\Yi.Framework.Rbac.SqlSugarCore.csproj",
       "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-      "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.SqlSugarCore\\obj\\",
+      "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.SqlSugarCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\share\\NuGetPackages"
@@ -8481,14 +8481,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj"
             },
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore\\Yi.Framework.SqlSugarCore.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore\\Yi.Framework.SqlSugarCore.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore\\Yi.Framework.SqlSugarCore.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore\\Yi.Framework.SqlSugarCore.csproj"
             },
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain\\Yi.Framework.Rbac.Domain.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain\\Yi.Framework.Rbac.Domain.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain\\Yi.Framework.Rbac.Domain.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain\\Yi.Framework.Rbac.Domain.csproj"
             }
           }
         }

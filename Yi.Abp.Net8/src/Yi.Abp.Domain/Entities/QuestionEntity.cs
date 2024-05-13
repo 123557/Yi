@@ -24,6 +24,7 @@ namespace Yi.Abp.Domain.Entities
         [SugarColumn(ColumnDataType = "text")]
         public string? description { get; set; }
         public string? solve_user { get; set; }
+        public string? solve_description { get; set; }
         public DateTime CreationTime { get; set; } = DateTime.Now;
         public DateTime? LastModificationTime { get; set; }
         public Guid? LastModifierId { get; set; }

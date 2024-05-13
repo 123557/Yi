@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bZO/Vt6c3z0kE95XPj51D8eoS0ACjqqLXZz9sDR5eyZ+rxMosTlILzd+3UaVHmtpzKPDVDyDaaSFXQnvyoQ+bg==",
+  "dgSpecHash": "wcaMraNvI6+b13KA8iUDFheiifF1FYCTOWIlgaz7mxQGo7qfgmC3MczPZGsKq2YbK2ZHki08eGwUgTvTiDhr1g==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Application.Contracts\\Yi.Framework.CodeGen.Application.Contracts.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Application.Contracts\\Yi.Framework.CodeGen.Application.Contracts.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

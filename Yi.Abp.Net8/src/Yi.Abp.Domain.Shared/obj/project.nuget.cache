@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vTZLSZ7KmY1kN+VIae3lwxVwaL2HcnSF5NZC/SV47je8cS3fL/XjNFDDZIg9om6GFPoVdXlzs5gyeoY67fRgJA==",
+  "dgSpecHash": "BYaGY3d0TWYUYS+ig4ksmMs7Z4emSKYgw1x3ZHxzGSGxiqYWSdwHk/py1qOuG9EFZ+CrNFaRtHRBEBU9CV/CEg==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Domain.Shared\\Yi.Abp.Domain.Shared.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Domain.Shared\\Yi.Abp.Domain.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\asynckeyedlock\\6.2.2\\asynckeyedlock.6.2.2.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",

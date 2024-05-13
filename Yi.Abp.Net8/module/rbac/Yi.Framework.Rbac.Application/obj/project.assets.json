@@ -9614,11 +9614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application\\Yi.Framework.Rbac.Application.csproj",
+      "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application\\Yi.Framework.Rbac.Application.csproj",
       "projectName": "Yi.Framework.Rbac.Application",
-      "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application\\Yi.Framework.Rbac.Application.csproj",
+      "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application\\Yi.Framework.Rbac.Application.csproj",
       "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-      "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application\\obj\\",
+      "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\share\\NuGetPackages"
@@ -9639,14 +9639,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj"
             },
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application.Contracts\\Yi.Framework.Rbac.Application.Contracts.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application.Contracts\\Yi.Framework.Rbac.Application.Contracts.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application.Contracts\\Yi.Framework.Rbac.Application.Contracts.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Application.Contracts\\Yi.Framework.Rbac.Application.Contracts.csproj"
             },
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain\\Yi.Framework.Rbac.Domain.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain\\Yi.Framework.Rbac.Domain.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain\\Yi.Framework.Rbac.Domain.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain\\Yi.Framework.Rbac.Domain.csproj"
             }
           }
         }

@@ -18,5 +18,6 @@ namespace Yi.Abp.Application.Contracts.Dtos.Question
         public string? title { get; set; }
         public string? description { get; set; }
         public string? Create_name { get; set; }
+        public string? solve_description { get; set; }
     }
 }

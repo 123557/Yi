@@ -6625,11 +6625,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain\\Yi.Framework.CodeGen.Domain.csproj",
+      "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain\\Yi.Framework.CodeGen.Domain.csproj",
       "projectName": "Yi.Framework.CodeGen.Domain",
-      "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain\\Yi.Framework.CodeGen.Domain.csproj",
+      "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain\\Yi.Framework.CodeGen.Domain.csproj",
       "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-      "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain\\obj\\",
+      "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\share\\NuGetPackages"
@@ -6650,11 +6650,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj"
             },
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj"
             }
           }
         }

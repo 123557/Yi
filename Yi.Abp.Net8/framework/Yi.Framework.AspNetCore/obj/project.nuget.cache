@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ruNyAt6H6N7Sn68Snm8GX/6jwkd2T8mlHDevWywj2YCt9Y5v2QmNZqDp1PU3g/zIpuZflSMsEfkD54jjtOzArg==",
+  "dgSpecHash": "ccwQ7G+m4zQQ23OQYGT1p/uuY66iZ2cs1ci3Fpwffr2f/1bqe7L73GrFl9RmrhW/0vqq+V6cRCyh+7USjqsc1Q==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.AspNetCore\\Yi.Framework.AspNetCore.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.AspNetCore\\Yi.Framework.AspNetCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\asynckeyedlock\\6.2.2\\asynckeyedlock.6.2.2.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\identitymodel\\6.2.0\\identitymodel.6.2.0.nupkg.sha512",

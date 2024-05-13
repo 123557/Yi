@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GcagVj5VxS3iWsXHMecY6JpMgGGLf+Ym1yOCYnX7VisecJkpqZeYf2wAy+MDg2diARfPCZxqdAoUIG1bm4nljA==",
+  "dgSpecHash": "RCYefjx8N+l+9F/AqNv31lbTRwVyzc/IIM2m+J5jE659sl20H1LD35S8Y9q2HiWvm2iJ59asGBxWk9Sv6aLm3w==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.SqlSugarCore\\Yi.Framework.CodeGen.SqlSugarCore.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.SqlSugarCore\\Yi.Framework.CodeGen.SqlSugarCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\asynckeyedlock\\6.2.2\\asynckeyedlock.6.2.2.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",

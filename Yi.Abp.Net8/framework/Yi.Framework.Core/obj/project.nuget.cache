@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7WM49xFNB3+LSC9w5ytt3OkliGxDQVJ6H/duIagXIIUxJyKYrZ3XKAOhqgoumIbPJh92CdroQ48qfCmrq5zx3A==",
+  "dgSpecHash": "XYIz07SuWxOpl0y38X2UYEqTLJY873MJ8j61mLq2d1uscrku0De7vVku6FziLKQKX8Ra+ZhNtVp08ZvfYZPKYg==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

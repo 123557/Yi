@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj": {}
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj": {}
   },
   "projects": {
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
         "projectName": "Yi.Framework.Core",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj",
         "projectName": "Yi.Framework.Mapster",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
-                "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
+              "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
+                "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj",
         "projectName": "Yi.Framework.SqlSugarCore.Abstractions",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -178,8 +178,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
-                "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
+              "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
+                "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
               }
             }
           }
@@ -223,14 +223,14 @@
         }
       }
     },
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj",
         "projectName": "Yi.Framework.Rbac.Domain.Shared",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -251,11 +251,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj": {
-                "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj"
+              "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj": {
+                "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj"
               },
-              "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
-                "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj"
+              "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
+                "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj"
               }
             }
           }

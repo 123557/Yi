@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj": {}
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj": {}
   },
   "projects": {
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
         "projectName": "Yi.Framework.Core",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj",
         "projectName": "Yi.Framework.Ddd.Application.Contracts",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
-                "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
+              "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
+                "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj",
         "projectName": "Yi.Framework.Ddd.Application",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\Yi.Framework.Ddd.Application.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -174,8 +174,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj": {
-                "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj"
+              "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj": {
+                "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj"
               }
             }
           }

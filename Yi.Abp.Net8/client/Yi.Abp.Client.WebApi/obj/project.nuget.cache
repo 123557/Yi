@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aOFdGYNAgPKJtT2X49g9nhj+aN+yNXuW5NP1fNxwym9ORaOjMW+VlPumOJuTdqgqIpJDAZiW8vXWBq7DT6VLfw==",
+  "dgSpecHash": "Jo0ZBYaChAIugK+Bw4hPWa7aGw6Na5N5a6DL97PypbenHjPT1b+4g8cxoe/Q7alIzRm9KN5MdgaK11p36nLAOQ==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\client\\Yi.Abp.Client.WebApi\\Yi.Abp.Client.WebApi.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\client\\Yi.Abp.Client.WebApi\\Yi.Abp.Client.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\asynckeyedlock\\6.2.2\\asynckeyedlock.6.2.2.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",

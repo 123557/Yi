@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J0slHsD09Oh6wKKrHL8R2wI+mzX0gewKHUD/GkR7qtIKb5NL0/+aYhh5FVViwKuckwbre1WAhWVbbw83YDjeQg==",
+  "dgSpecHash": "YThD9V2z9gLgWEpv57ho0rj2mDkO2Fx6CxCqYtyW8IcM7Jwdvh+SYnQv4H0ykWlZGlc8x7iDiOoZGqKH/npo8w==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.SqlSugarCore\\Yi.Abp.SqlSugarCore.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.SqlSugarCore\\Yi.Abp.SqlSugarCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\alibabacloud.endpointutil\\0.1.1\\alibabacloud.endpointutil.0.1.1.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\alibabacloud.gatewayspi\\0.0.2\\alibabacloud.gatewayspi.0.0.2.nupkg.sha512",

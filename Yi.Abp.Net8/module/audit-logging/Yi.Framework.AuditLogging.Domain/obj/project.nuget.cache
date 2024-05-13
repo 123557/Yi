@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uIxkMybWbfzxryJ/wc+0Sdz33bew+NlcbyDOhqiYDw6JI0TCidI7vY27FV0UQjIGlc+M1XOnu4zcsVdqYwjdYg==",
+  "dgSpecHash": "XXQ5HbHJ8alFpOmSZ3w9y28bgDQfSRfAIrGFG9Rz14qT+7eRM4hx1Duz0J5Pp7eE2Ujl0D7VxLPfGxAyX4LiBQ==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\asynckeyedlock\\6.2.2\\asynckeyedlock.6.2.2.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",

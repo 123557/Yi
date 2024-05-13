@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wkKRS/AuYfHX4xDaoksMakj7deJvzXOVs10mqUso81KXjM6kA9S36kq5TS6kSsjPYQu99LOCZ125HrZ5lW69w==",
+  "dgSpecHash": "vWf/W1n1BGQqLiqZJ3+Qm8bNE1YdvhqqcASvhcmVQMRCrGt7NTXicboOjVezonkmKe/NgokW37UbXcMSUBef8w==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\rbac\\Yi.Framework.Rbac.Domain.Shared\\Yi.Framework.Rbac.Domain.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\asynckeyedlock\\6.2.2\\asynckeyedlock.6.2.2.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",

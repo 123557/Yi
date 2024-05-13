@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj": {}
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj": {}
   },
   "projects": {
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
         "projectName": "Yi.Framework.Core",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj",
         "projectName": "Yi.Framework.SqlSugarCore.Abstractions",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -105,8 +105,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
-                "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
+              "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj": {
+                "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Core\\Yi.Framework.Core.csproj"
               }
             }
           }
@@ -150,14 +150,14 @@
         }
       }
     },
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
         "projectName": "Yi.Framework.AuditLogging.Domain.Shared",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -215,14 +215,14 @@
         }
       }
     },
-    "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj": {
+    "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj",
+        "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj",
         "projectName": "Yi.Framework.AuditLogging.Domain",
-        "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj",
+        "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\Yi.Framework.AuditLogging.Domain.csproj",
         "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-        "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\obj\\",
+        "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\share\\NuGetPackages"
@@ -243,11 +243,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
-                "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj"
+              "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj": {
+                "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.SqlSugarCore.Abstractions\\Yi.Framework.SqlSugarCore.Abstractions.csproj"
               },
-              "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj": {
-                "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj"
+              "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj": {
+                "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ss1qKc3bqaRFR2ZUPxXX0mGDPEzY3mTm9/MHSrV6YaYIFvLYIgiGafRs2MmNkbBwdqUaQ/JJqrK5tOQnh9CTQ==",
+  "dgSpecHash": "aSXh9QslEltuV9akxOBKRLHQuusixLlXFICpIDgi7ulrD9X2AEScSx5igdcf7NkfHeUCMCxOnEXlYjruw3V/9A==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\client\\Yi.Abp.Client.Console\\Yi.Abp.Client.Console.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\client\\Yi.Abp.Client.Console\\Yi.Abp.Client.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\asynckeyedlock\\6.2.2\\asynckeyedlock.6.2.2.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\autofac\\8.0.0\\autofac.8.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "esl2dbhcA3QyWgwsNATgKIUdtdkMNoegNWVWTYXZNcpp8pwo0laOBC9n8tXxDcTC9Cfb/1UVE3fk/4NZia/6fg==",
+  "dgSpecHash": "pR4Wz4W5CjWPkO4MrUQc3x0pltSQThZ3cMAszD6uFHgUhvjXkNE9MWTYOATW/qeFddziz+B+0PRl6+yhT3IELA==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\audit-logging\\Yi.Framework.AuditLogging.Domain.Shared\\Yi.Framework.AuditLogging.Domain.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

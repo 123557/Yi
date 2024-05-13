@@ -16,7 +16,7 @@ namespace Yi.Abp.Application.Contracts.Dtos.Question
         public string description { get; set; }
         public string solve_user { get; set; }
         public DateTime CreationTime { get; set; }
-
+        public string? solve_description { get; set; }
         public string Create_name { get; set; }
     }
 }

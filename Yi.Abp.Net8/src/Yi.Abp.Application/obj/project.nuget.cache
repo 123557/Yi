@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s/VN0hTIrSyuPFbhi2L1bHkeoFqY6dDk45qWzKvJGiWuSRvjNGAZ8mmdKFBxzEZp6Glu6SX5saCy9cOe2EU7Gw==",
+  "dgSpecHash": "GWUk7lOYKvzXdsRdigwysSde2l0b952aYYfOoyxdkoKSu0BUcL/MbJjn2pfflNSzBvNoSjhMahhdLFKbxFvnBw==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Application\\Yi.Abp.Application.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\src\\Yi.Abp.Application\\Yi.Abp.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\alibabacloud.endpointutil\\0.1.1\\alibabacloud.endpointutil.0.1.1.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\alibabacloud.gatewayspi\\0.0.2\\alibabacloud.gatewayspi.0.0.2.nupkg.sha512",

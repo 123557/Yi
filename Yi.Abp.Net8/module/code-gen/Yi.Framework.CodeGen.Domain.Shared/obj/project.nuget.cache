@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VaDqCiJX5k9q+Ws1MuKCbJo34Wj2WpTAIEfoAIeLAXU9OrPgO7un+gnbTawtmzTJdcdwECKUe0fF3zDLQpRJew==",
+  "dgSpecHash": "CH5latZLLY3CR6LGV/+OBIeJ9+uGi1BawBbsdrgIcnhx3MA6ziz/2Oe87NhLSUrp5BARV6YOa6UU2lseDgppOA==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",

@@ -43,5 +43,17 @@ namespace Yi.Abp.Application.Services
             return entities.Adapt<List<UserListOutput>>();
 
         }
+
+        [HttpGet("CurrentUserId")]
+        public string GetCurrentUserId()
+        {
+            if (_currentUser.Id is not null)
+            {
+                
+                return _currentUser.Id.ToString();
+            }
+            //当token鉴权之后，可以直接获取
+            return "";
+        }
     }
 }

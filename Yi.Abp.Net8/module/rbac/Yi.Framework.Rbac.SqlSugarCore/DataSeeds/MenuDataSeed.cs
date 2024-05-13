@@ -1049,6 +1049,16 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
                 ParentId = question.Id,
                 IsDeleted = false
             };
+
+
+
+
+
+
+
+
+
+
             entities.Add(dictlist);
             //默认值
             entities.ForEach(m =>

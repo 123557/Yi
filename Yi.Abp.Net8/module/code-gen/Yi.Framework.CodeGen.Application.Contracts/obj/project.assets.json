@@ -4398,11 +4398,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Application.Contracts\\Yi.Framework.CodeGen.Application.Contracts.csproj",
+      "projectUniqueName": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Application.Contracts\\Yi.Framework.CodeGen.Application.Contracts.csproj",
       "projectName": "Yi.Framework.CodeGen.Application.Contracts",
-      "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Application.Contracts\\Yi.Framework.CodeGen.Application.Contracts.csproj",
+      "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Application.Contracts\\Yi.Framework.CodeGen.Application.Contracts.csproj",
       "packagesPath": "C:\\Users\\cm006238\\.nuget\\packages\\",
-      "outputPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Application.Contracts\\obj\\",
+      "outputPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Application.Contracts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "E:\\share\\NuGetPackages"
@@ -4423,11 +4423,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Ddd.Application.Contracts\\Yi.Framework.Ddd.Application.Contracts.csproj"
             },
-            "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj": {
-              "projectPath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj"
+            "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj": {
+              "projectPath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\code-gen\\Yi.Framework.CodeGen.Domain.Shared\\Yi.Framework.CodeGen.Domain.Shared.csproj"
             }
           }
         }

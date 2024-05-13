@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DCuFHErwjDIcoLD6tjRkbGZUT8LWeGJYnCiBdBNRQrFTaVQvH7ZIaHZ/tnjRaqDFFBAJ1hj6byqLwpF6cV+RYA==",
+  "dgSpecHash": "01lVFWinI/egOFgz+bK3fF4X2qQ0EbDY0kwU0etSbd2mrVjWkPa3IQNG5oYO37uBvaECbZOzKhQcppyO5ZlsLw==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\module\\tenant-management\\Yi.Framework.TenantManagement.Domain\\Yi.Framework.TenantManagement.Domain.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\module\\tenant-management\\Yi.Framework.TenantManagement.Domain\\Yi.Framework.TenantManagement.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\asynckeyedlock\\6.2.2\\asynckeyedlock.6.2.2.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",

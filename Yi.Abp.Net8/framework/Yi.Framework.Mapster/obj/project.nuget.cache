@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i8N5BVGoQCD/T1wjgjrWlyxqUM77dIzDQLKmEWWO4tdU1UcSv9vNLL3wUdmhH0zecvNXEIyduTkC/wiadRYzBw==",
+  "dgSpecHash": "ilqt2cm2Uxzw1R5Aa2+n49Z0X05E1t4ofhBqXVsfJATjPK8OG9kxAAfLm/A9Vj2Hm6HdmgpHtUqpYVL8mAojOw==",
   "success": true,
-  "projectFilePath": "D:\\vs_space\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj",
+  "projectFilePath": "D:\\vs_space\\upload\\mycode\\Yi\\Yi.Abp.Net8\\framework\\Yi.Framework.Mapster\\Yi.Framework.Mapster.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cm006238\\.nuget\\packages\\jetbrains.annotations\\2023.3.0\\jetbrains.annotations.2023.3.0.nupkg.sha512",
     "C:\\Users\\cm006238\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",

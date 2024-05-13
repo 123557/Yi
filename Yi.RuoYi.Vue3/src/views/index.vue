@@ -68,48 +68,148 @@ onMounted(async () => {
 
 // 使用chartData的值来动态设置data的值
 const data = computed(() => ({
+    title: {
+    text: '问题点状态汇总',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'item',
+  },
+  legend: {
+    orient: 'vertical',
+    left: 'left',
+  },
   series: [
     {
+      name: '汇总',
       type: 'pie',
+      radius: '70%',
       data:  JSON.parse(JSON.stringify(chart_question_status_Data.value)) || [], // 如果chartData.value未定义或为空，使用空数组作为默认值
     }
-  ]
+  ],
+  emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: 'rgba(0, 0, 0, 0.5)'
+        }
+      }
 }));
 
 const data1 = computed(() => ({
+    title: {
+    text: '问题点所属项目汇总',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'item',
+  },
+  legend: {
+    orient: 'vertical',
+    left: 'left',
+  },
   series: [
     {
+      name: '汇总',
       type: 'pie',
+      radius: '70%',
       data:  JSON.parse(JSON.stringify(chart_question_project_Data.value)) || [], 
     }
-  ]
+  ],
+  emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: 'rgba(0, 0, 0, 0.5)'
+        }
+      }
 }));
 
 const data2 = computed(() => ({
+    title: {
+    text: '问题点影响度汇总',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'item',
+  },
+  legend: {
+    orient: 'vertical',
+    left: 'left',
+  },
   series: [
     {
       type: 'pie',
+      name: '汇总',
+      radius: '70%',
       data:  JSON.parse(JSON.stringify(chart_question_impact_Data.value)) || [], 
     }
-  ]
+  ],
+  emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: 'rgba(0, 0, 0, 0.5)'
+        }
+      }
 }));
 
 const data3 = computed(() => ({
+    title: {
+    text: '问题点分类汇总',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'item',
+  },
+  legend: {
+    orient: 'vertical',
+    left: 'left',
+  },
   series: [
     {
+        name: '汇总',
       type: 'pie',
+      radius: '70%',
       data:  JSON.parse(JSON.stringify(chart_question_category_Data.value)) || [], 
     }
-  ]
+  ],
+  emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: 'rgba(0, 0, 0, 0.5)'
+        }
+      }
 }));
 
 const data4 = computed(() => ({
+    title: {
+    text: '问题点优先级汇总',
+    left: 'center'
+  },
+  tooltip: {
+    trigger: 'item',
+  },
+  legend: {
+    orient: 'vertical',
+    left: 'left',
+  },
   series: [
     {
+        name: '汇总',
       type: 'pie',
-      data:  JSON.parse(JSON.stringify(chart_question_status_Data.value)) || [], 
+      radius: '70%',
+      data:  JSON.parse(JSON.stringify(chart_question_priority_Data.value)) || [], 
     }
-  ]
+  ],
+  emphasis: {
+        itemStyle: {
+          shadowBlur: 10,
+          shadowOffsetX: 0,
+          shadowColor: 'rgba(0, 0, 0, 0.5)'
+        }
+      }
 }));
 const socketStore=useSocketStore();
 const {onlineNum}=storeToRefs(socketStore);
