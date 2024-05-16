@@ -1046,20 +1046,44 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
                 Component = "system/dict/data",
                 MenuIcon = "list",
                 OrderNum = 100,
+                ParentId = system.Id,
+                IsDeleted = false
+            };
+            entities.Add(dictlist);
+
+            MenuEntity my_questioneslist = new MenuEntity(_guidGenerator.Create())
+            {
+
+                MenuName = "待处理问题点",
+                MenuType = MenuTypeEnum.Menu,
+                Router = "dictionary",
+                IsShow = true,
+                IsLink = false,
+                IsCache = false,
+                Component = "question/questiones/myquestiones",
+                MenuIcon = "list",
+                OrderNum = 100,
                 ParentId = question.Id,
                 IsDeleted = false
             };
+            entities.Add(my_questioneslist);
 
+            MenuEntity Pending_Issues = new MenuEntity(_guidGenerator.Create())
+            {
 
-
-
-
-
-
-
-
-
-            entities.Add(dictlist);
+                MenuName = "待处理问题点",
+                MenuType = MenuTypeEnum.Menu,
+                Router = "dictionary",
+                IsShow = true,
+                IsLink = false,
+                IsCache = false,
+                Component = "question/questiones/Pending_Issues",
+                MenuIcon = "list",
+                OrderNum = 100,
+                ParentId = question.Id,
+                IsDeleted = false
+            };
+            entities.Add(Pending_Issues);
             //默认值
             entities.ForEach(m =>
             {

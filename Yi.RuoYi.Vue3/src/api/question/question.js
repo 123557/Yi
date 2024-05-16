@@ -51,3 +51,10 @@ export function getExportExcel(query) {
   
     return download('/question/export-excel',query,'导出数据.xlsx')
   }
+
+  export function getUserListData() {
+    return request({
+      url: `/UserList`,
+      method: 'get'
+    })
+  }

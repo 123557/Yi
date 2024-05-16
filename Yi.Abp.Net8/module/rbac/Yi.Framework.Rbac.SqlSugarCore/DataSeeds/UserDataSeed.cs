@@ -25,7 +25,7 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
                 UserEntity user1 = new UserEntity()
                 {
                     Name = "超级管理员",
-                    UserName = "admin",
+                    UserName = "cc",
                     Nick = "超级管理员",
                     Password = _options.AdminPassword,
                     Sex = SexEnum.Male,

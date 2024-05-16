@@ -330,16 +330,15 @@ import {
     delData,
     addData,
     updateData,
+    getUserListData
 } from "@/api/question/question";
 import { ref } from "@vue/reactivity";
-import { uploadlist,getPicturePathlist, getUserListData,getUserIdData,getUserData} from "@/api/file";
-const userInfo =ref([]) ;
-getInfo().then((response)=>{ 
-    //userInfo = responses
-    //console.log(response.data.user);
-    userInfo.value=response.data.user;
-});
-
+import { uploadlist,getPicturePathlist, } from "@/api/file";
+import { computed, onMounted } from "vue";
+import { useFileSystemAccess } from "@vueuse/core";
+import { ConsoleLogger } from "@microsoft/signalr/dist/esm/Utils";
+import useUserStore from '@/store/modules/user'
+const UserStore = useUserStore()
 const router = useRouter();
 const { proxy } = getCurrentInstance();
 const { status_type } = proxy.useDict("status_type");
@@ -347,7 +346,6 @@ const { question_project_type } = proxy.useDict("question_project_type");
 const { impact_type } = proxy.useDict("impact_type");
 const { question_category_type } = proxy.useDict("question_category_type");
 const { priority_type } = proxy.useDict("priority_type");
-
 const userList = ref ();
 const picture_url = import.meta.env.VITE_APP_BASE_URL
 const dataList = ref([]);
@@ -378,7 +376,7 @@ const data = reactive({
         category: undefined,
         impact: undefined,
         priority: undefined,
-        //CreatorId : getUserIdData(),
+        CreatorId : UserStore.id,
     },
     rules: {
         title: [{ required: true, message: "标题不能为空", trigger: "blur" }],
@@ -394,6 +392,7 @@ const data = reactive({
 
 const { queryParams, form, rules } = toRefs(data);
 
+
 /** 查询列表 */
 function getList() {
     loading.value = true;
@@ -402,6 +401,7 @@ function getList() {
             dataList.value = response.data.items;
             total.value = response.data.totalCount;
             loading.value = false;
+            console.log(response);
         }
     );
 }
@@ -434,7 +434,7 @@ function handleDescription(row) {
     const id = row.id || ids.value;
     getData(id).then((response) => {
         questionList.value = response.data;
-        console.log(questionList.value)
+        //console.log(questionList.value)
         descopen.value = true;
         title.value = "问题点详情";
     });
@@ -442,7 +442,7 @@ function handleDescription(row) {
         showPictureList.value = response.data;
         //console.log(showPictureList.value[0].id)
         uploadPictureList.value =showPictureList.value.map((item) => picture_url + '/picturefile?code='+item.id)
-        console.log(uploadPictureList)
+        //console.log(uploadPictureList)
         //console.log(import.meta.env.VITE_APP_BASE_URL+'/picturefile/'+row.id)
     })
 
@@ -574,6 +574,7 @@ async function uploadFiles(id) {
 
 
 getList();
+
 </script>
 
 <style scoped>
