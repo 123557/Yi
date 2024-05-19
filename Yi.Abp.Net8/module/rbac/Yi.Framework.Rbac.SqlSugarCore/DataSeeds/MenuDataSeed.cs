@@ -985,6 +985,18 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
             };
             entities.Add(questionlist);
 
+            MenuEntity questionlistEexport= new MenuEntity(_guidGenerator.Create())
+            {
+
+                MenuName = "问题导出",
+                PermissionCode = "question:questiones:export",
+                MenuType = MenuTypeEnum.Component,
+                OrderNum = 100,
+                ParentId = questionlist.Id,
+                IsDeleted = false
+            };
+            entities.Add(questionlistEexport);
+
             MenuEntity questionlistQuery = new MenuEntity(_guidGenerator.Create())
             {
 
@@ -1054,15 +1066,15 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
             MenuEntity my_questioneslist = new MenuEntity(_guidGenerator.Create())
             {
 
-                MenuName = "待处理问题点",
+                MenuName = "我的问题点",
                 MenuType = MenuTypeEnum.Menu,
-                Router = "dictionary",
+                Router = "myquestiones",
                 IsShow = true,
                 IsLink = false,
                 IsCache = false,
                 Component = "question/questiones/myquestiones",
                 MenuIcon = "list",
-                OrderNum = 100,
+                OrderNum = 102,
                 ParentId = question.Id,
                 IsDeleted = false
             };
@@ -1073,17 +1085,68 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
 
                 MenuName = "待处理问题点",
                 MenuType = MenuTypeEnum.Menu,
-                Router = "dictionary",
+                Router = "Pending_Issues",
                 IsShow = true,
                 IsLink = false,
                 IsCache = false,
                 Component = "question/questiones/Pending_Issues",
                 MenuIcon = "list",
-                OrderNum = 100,
+                OrderNum = 101,
                 ParentId = question.Id,
                 IsDeleted = false
             };
             entities.Add(Pending_Issues);
+
+            MenuEntity myquestionlistExport = new MenuEntity(_guidGenerator.Create())
+            {
+
+                MenuName = "问题导出",
+                PermissionCode = "myquestion:myquestion:export",
+                MenuType = MenuTypeEnum.Component,
+                OrderNum = 100,
+                ParentId = my_questioneslist.Id,
+                IsDeleted = false
+            };
+            entities.Add(myquestionlistExport);
+
+            MenuEntity myquestionlistAdd = new MenuEntity(_guidGenerator.Create())
+            {
+
+                MenuName = "问题添加",
+                PermissionCode = "myquestion:myquestion:add",
+                MenuType = MenuTypeEnum.Component,
+                OrderNum = 100,
+                ParentId = my_questioneslist.Id,
+                IsDeleted = false
+            };
+            entities.Add(myquestionlistAdd);
+
+            MenuEntity myquestionlistEdit = new MenuEntity(_guidGenerator.Create())
+            {
+
+                MenuName = "问题修改",
+                PermissionCode = "myquestion:myquestion:edit",
+                MenuType = MenuTypeEnum.Component,
+                OrderNum = 100,
+                ParentId = my_questioneslist.Id,
+                IsDeleted = false
+            };
+            entities.Add(myquestionlistEdit);
+
+            MenuEntity myquestionlistRemove = new MenuEntity(_guidGenerator.Create())
+            {
+
+                MenuName = "问题删除",
+                PermissionCode = "myquestion:myquestion:remove",
+                MenuType = MenuTypeEnum.Component,
+                OrderNum = 100,
+                ParentId = my_questioneslist.Id,
+                IsDeleted = false
+            };
+            entities.Add(myquestionlistRemove);
+
+
+
             //默认值
             entities.ForEach(m =>
             {

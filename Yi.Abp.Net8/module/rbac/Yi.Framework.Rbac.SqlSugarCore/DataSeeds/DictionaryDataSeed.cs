@@ -399,7 +399,7 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
             {
 
                 DictLabel = "已解决",
-                DictValue = "1",
+                DictValue = "已解决",
                 DictType = "status_type",
                 OrderNum = 99,
                 Remark = "已解决状态",
@@ -412,7 +412,7 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
             {
 
                 DictLabel = "未解决",
-                DictValue = "0",
+                DictValue = "未解决",
                 DictType = "status_type",
                 OrderNum = 99,
                 Remark = "未解决状态",
@@ -421,9 +421,57 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
             };
             entities.Add(dictInfo30);
 
+            DictionaryEntity dictInfo31 = new DictionaryEntity()
+            {
 
+                DictLabel = "紧急",
+                DictValue = "紧急",
+                DictType = "priority_type",
+                OrderNum = 99,
+                Remark = "紧急",
+                IsDeleted = false,
+                State = true,
+            };
+            entities.Add(dictInfo31);
 
+            DictionaryEntity dictInfo32 = new DictionaryEntity()
+            {
 
+                DictLabel = "不紧急",
+                DictValue = "不紧急",
+                DictType = "priority_type",
+                OrderNum = 99,
+                Remark = "不紧急",
+                IsDeleted = false,
+                State = true,
+            };
+            entities.Add(dictInfo32);
+
+            DictionaryEntity dictInfo34 = new DictionaryEntity()
+            {
+
+                DictLabel = "重要",
+                DictValue = "重要",
+                DictType = "impact_type",
+                OrderNum = 99,
+                Remark = "重要",
+                IsDeleted = false,
+                State = true,
+            };
+            entities.Add(dictInfo34);
+
+            DictionaryEntity dictInfo35 = new DictionaryEntity()
+            {
+
+                DictLabel = "不重要",
+                DictValue = "不重要",
+                DictType = "impact_type",
+                OrderNum = 99,
+                Remark = "不重要",
+                IsDeleted = false,
+                State = true,
+            };
+            entities.Add(dictInfo35);
 
 
             return entities;

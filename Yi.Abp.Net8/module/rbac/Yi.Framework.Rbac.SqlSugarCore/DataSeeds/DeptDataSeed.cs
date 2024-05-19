@@ -29,7 +29,7 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
 
             DeptEntity Dept = new DeptEntity(_guidGenerator.Create())
             {
-                DeptName = "本田汽车零部件制造有限公司",
+                DeptName = "CHAM",
                 DeptCode = "CHAM",
                 OrderNum = 100,
                 IsDeleted = false,

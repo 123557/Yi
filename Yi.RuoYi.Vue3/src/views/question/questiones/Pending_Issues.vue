@@ -30,21 +30,7 @@
                 <el-input v-model="queryParams.status" placeholder="请输入问题点状态" clearable style="width: 240px"
                     @keyup.enter="handleQuery" />
             </el-form-item> -->
-            <el-form-item label="状态" prop="state">
-                <el-select
-                    v-model="queryParams.state"
-                    placeholder="请选择问题点状态"
-                    clearable
-                    style="width: 240px"
-                        >
-                    <el-option
-                        v-for="dict in status_type"
-                        :key="dict.value"
-                        :label="dict.label"
-                        :value="dict.value"
-                    />
-                </el-select>
-            </el-form-item>
+
             <el-form-item label="分类" prop="category">
                 <!-- <el-input v-model="queryParams.category" placeholder="请输入问题点分类" clearable style="width: 240px"
                     @keyup.enter="handleQuery" /> -->
@@ -132,24 +118,24 @@
             </el-form-item>
         </el-form>
 
-        <el-row :gutter="10" class="mb8">
+        <!-- <el-row :gutter="10" class="mb8">
             <el-col :span="1.5">
                 <el-button type="primary" plain icon="Plus" @click="handleAdd" v-hasPermi="['question:questiones:add']">新增</el-button>
             </el-col>
             <el-col :span="1.5">
                 <el-button type="success" plain icon="Edit" :disabled="single" @click="handleUpdate"
-                    v-hasPermi="['question:questiones:edit']">修改</el-button>
+                    v-hasPermi="['myquestion:myquestion:edit']">提交</el-button>
             </el-col>
             <el-col :span="1.5">
                 <el-button type="danger" plain icon="Delete" :disabled="multiple" @click="handleDelete"
-                    v-hasPermi="['question:questiones:remove']">删除</el-button>
+                    v-hasPermi="['myquestion:myquestion:remove']">删除</el-button>
             </el-col>
             <el-col :span="1.5">
                 <el-button type="warning" plain icon="Download" @click="handleExport"
                     v-hasPermi="['question:questiones:export']">导出</el-button>
             </el-col>
             <right-toolbar v-model:showSearch="showSearch" @queryTable="getList"></right-toolbar>
-        </el-row>
+        </el-row> -->
 
         <el-table v-loading="loading" :data="dataList" @selection-change="handleSelectionChange">
             <el-table-column type="selection" width="55" align="center" />
@@ -189,16 +175,9 @@
           </el-table-column> -->
             <el-table-column label="操作" align="center" class-name="small-padding fixed-width" >
                 <template #default="scope">
-                    <el-tooltip content="详情" placement="top" v-if="scope.row.userName != 'cc'">
-                    <el-button type="text" icon="Document" @click="handleDescription(scope.row)"></el-button>
-                    </el-tooltip>
-                    <el-tooltip content="修改" placement="top" v-if="scope.row.userName != 'cc'">
+                    <el-tooltip content="提交" placement="top" v-if="scope.row.userName != 'cc'">
                     <el-button type="text" icon="Edit" @click="handleUpdate(scope.row)"
                         v-hasPermi="['question:questiones:edit']"></el-button>
-                    </el-tooltip>
-                    <el-tooltip content="删除" placement="top" v-if="scope.row.userName != 'cc'">
-                    <el-button type="text" icon="Delete" @click="handleDelete(scope.row)"
-                        v-hasPermi="['question:questiones:remove']"></el-button>
                     </el-tooltip>
                 </template>
             </el-table-column>
@@ -208,16 +187,43 @@
 
         <!-- ---------------------这里是新增和更新的对话框--------------------- -->
         <el-dialog :title="title" v-model="open" width="800px" append-to-body>
+            <el-descriptions :column="1">
+                <el-descriptions-item label="标题">{{questionList.title}}</el-descriptions-item>
+                <el-descriptions-item label="所属项目">{{questionList.project}}</el-descriptions-item>
+                <el-descriptions-item label="状态">{{questionList.status}}</el-descriptions-item>
+                <el-descriptions-item label="类别">{{questionList.category}}</el-descriptions-item>
+                <el-descriptions-item label="影响">{{questionList.impact}}</el-descriptions-item>
+                <el-descriptions-item label="优先级">{{questionList.priority}}</el-descriptions-item>
+                <el-descriptions-item label="详情">{{questionList.description}}</el-descriptions-item>
+                <el-descriptions-item label="创建时间">{{questionList.creationTime}}</el-descriptions-item>
+                <el-descriptions-item label="图片">
+                <div class="demo-image__preview">
+                    <el-image
+                    v-for="(item,index ) in uploadPictureList"
+                    :item="item"
+                    :index="index"
+                    :key="item.id"
+                    style="width: 100px; height: 100px"
+                    :src="item"
+                    :zoom-rate="1.2"
+                    :max-scale="7"
+                    :min-scale="0.2"
+                    :preview-src-list="[item]"
+                    fit="cover"
+                    />
+                </div>
+                </el-descriptions-item>
+            </el-descriptions>
             <el-form ref="dataRef" :model="form" :rules="rules" label-width="100px">
-                <el-form-item label="标题" prop="title">
+                <!-- <el-form-item label="标题" prop="title">
                     <el-input v-model="form.title" placeholder="请输入标题" />
                 </el-form-item>
                 <el-form-item label="项目" prop="project">
                     <el-input v-model="form.project" placeholder="请输入所属项目" />
                 </el-form-item>
-                <!-- <el-form-item label="状态" prop="status">
+                <el-form-item label="状态" prop="status">
                     <el-input v-model="form.status" placeholder="请输入状态" />
-                </el-form-item> -->
+                </el-form-item>
                 <el-form-item label="状态" prop="status">
                     <el-select
                     v-model="form.status"
@@ -244,6 +250,24 @@
                 </el-form-item>
                 <el-form-item label="具体内容" prop="description">
                     <el-input v-model="form.description" placeholder="请输入具体内容"  type="textarea"/>
+                </el-form-item> -->
+                <el-form-item label="处理方法" prop="solve_description">
+                    <el-input v-model="form.solve_description" placeholder="请输入处理方法"  type="textarea"/>
+                </el-form-item>
+                <!-- <el-form-item label="处理人" prop="solve_user">
+                    <el-select
+                    v-model="form.solve_user"
+                    placeholder="请选择处理人"
+                    clearable
+                    style="width: 240px"
+                    >
+                    <el-option
+                        v-for="dict in userlist"
+                        :key="dict.name"
+                        :label="dict.name"
+                        :value="dict.name"
+                    />
+                    </el-select>
                 </el-form-item>
                 <el-form-item label="图片" prop="picturelist">
                     <el-upload
@@ -265,21 +289,7 @@
                         </template>
                     </el-upload>
                     
-                </el-form-item>
-                
-                <!-- <el-form-item label="处理人" prop="solve_user">
-                    <el-input v-model="form.solve_user" placeholder="请输入处理人" />
                 </el-form-item> -->
-                <!-- <el-form-item label="状态" prop="isDeleted">
-              <el-radio-group v-model="form.isDeleted">
-                <el-radio
-                  v-for="dict in sys_normal_disable"
-                  :key="dict.value"
-                  :label="JSON.parse(dict.value)"
-                  >{{ dict.label }}</el-radio
-                >
-              </el-radio-group>
-            </el-form-item> -->
             </el-form>
             <template #footer>
                 <div class="dialog-footer">
@@ -333,14 +343,10 @@ import {
 } from "@/api/question/question";
 import { ref } from "@vue/reactivity";
 import { uploadlist,getPicturePathlist, uploadpic} from "@/api/file";
-const userInfo =ref([]) ;
-getInfo().then((response)=>{ 
-    //userInfo = responses
-    //console.log(response.data.user);
-    userInfo.value=response.data.user;
-});
-
+import useUserStore from '@/store/modules/user'
 const router = useRouter();
+const UserStore = useUserStore();
+const userlist = UserStore.userlist;
 const { proxy } = getCurrentInstance();
 const { status_type } = proxy.useDict("status_type");
 const { question_project_type } = proxy.useDict("question_project_type");
@@ -373,10 +379,11 @@ const data = reactive({
         title: undefined,
         description: undefined,
         project: undefined,
-        status: undefined,
+        status: '未解决',
         category: undefined,
         impact: undefined,
         priority: undefined,
+        solve_user: UserStore.username,
     },
     rules: {
         title: [{ required: true, message: "标题不能为空", trigger: "blur" }],
@@ -386,6 +393,7 @@ const data = reactive({
         category: [{ required: true, message: "类别不能为空", trigger: "blur" }],
         impact: [{ required: true, message: "影响不能为空", trigger: "blur" }],
         priority: [{ required: true, message: "优先级不能为空", trigger: "blur" }],
+        solve_user: [{ required: true, message: "处理人不能为空", trigger: "blur" }],
     },
 });
 
@@ -463,6 +471,9 @@ function handleUpdate(row) {
     reset();
     const id = row.id || ids.value;
     getData(id).then((response) => {
+        questionList.value = response.data;
+    });
+    getData(id).then((response) => {
         form.value = response.data;
         open.value = true;
         title.value = "修改问题点";
@@ -477,6 +488,7 @@ function submitForm() {
         if (valid) {
             //console.log(form.value);
             if (form.value.id != undefined) {
+                form.value.status = '已解决';
                 updateData(form.value.id, form.value).then((response) => {
                     uploadFiles(response.data.id)
                     proxy.$modal.msgSuccess("修改成功");

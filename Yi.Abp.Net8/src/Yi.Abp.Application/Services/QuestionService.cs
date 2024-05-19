@@ -42,6 +42,7 @@ namespace Yi.Abp.Application.Services
                           .WhereIF(!string.IsNullOrEmpty(input.description), x => x.impact.Contains(input.description!))
                           .WhereIF(!string.IsNullOrEmpty(input.priority), x => x.priority.Contains(input.priority!))
                           .WhereIF(!string.IsNullOrEmpty(input.title), x => x.impact.Contains(input.title!))
+                          .WhereIF(!string.IsNullOrEmpty(input.solve_user), x => x.solve_user.Contains(input.solve_user!))
                           .WhereIF(input.StartTime is not null && input.EndTime is not null, x => x.CreationTime >= input.StartTime && x.CreationTime <= input.EndTime)
                           .ToPageListAsync(input.SkipCount, input.MaxResultCount, total);
             return new PagedResultDto<QuestionGetListOutputDto>(total, await MapToGetListOutputDtosAsync(entities));

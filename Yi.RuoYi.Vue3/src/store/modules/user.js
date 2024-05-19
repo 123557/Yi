@@ -1,7 +1,7 @@
 import { login, logout, getInfo } from '@/api/login'
 import { getToken, setToken, removeToken,getTenantId,setTenantId,removeTenantId } from '@/utils/auth'
 import defAva from '@/assets/images/profile.jpg'
-
+import {getUserListData} from '@/api/question/question'
 const useUserStore = defineStore(
   'user',
   {
@@ -9,9 +9,11 @@ const useUserStore = defineStore(
       token: getToken(),
       id:'',
       name: '',
+      username:'',
       avatar: '',
       roles: [],
       permissions: [],
+      userlist:[],
       tenantId:getTenantId()
     }),
     actions: {
@@ -55,10 +57,15 @@ const useUserStore = defineStore(
             } else {
               this.roles = ['ROLE_DEFAULT']
             }
+            getUserListData().then((res)=>{
+              res.data.map(p => ({ label: p.name, value: p.name}))
+              this.userlist = res.data;
+            })
             // this.roles = ["admin"];
             // this.permissions=["*:*:*"]
             this.id = user.id
             this.name = user.userName
+            this.username =user.nick
             this.avatar = avatar;
             resolve(res)
           }).catch(error => {

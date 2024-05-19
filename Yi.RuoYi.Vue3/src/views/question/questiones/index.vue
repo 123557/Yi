@@ -2,12 +2,7 @@
 <template>
 
     <div class="app-container">
-        <!-- <div>
-该文件为通用Crud模板文件，按照规范只需要 替换以下变量即可，
-@Name@ ： 实体中文名称
-@per:per@ ：crud权限编码
-@api@ : api文件路径,code/tableApi
-    </div> -->
+
         <el-form :model="queryParams" ref="queryRef" :inline="true" v-show="showSearch" label-width="100px">
             <el-form-item label="问题点标题" prop="title">
                 <el-input v-model="queryParams.title" placeholder="请输入问题点标题" clearable style="width: 240px"
@@ -18,8 +13,6 @@
                     @keyup.enter="handleQuery" />
             </el-form-item>
             <el-form-item label="项目" prop="project">
-                <!-- <el-input v-model="queryParams.project" placeholder="请输入问题点所属项目" clearable style="width: 240px"
-                    @keyup.enter="handleQuery" /> -->
                     <el-select
                         v-model="queryParams.project"
                         placeholder="请输入问题点所属项目"
@@ -34,13 +27,9 @@
                     />
                 </el-select>
             </el-form-item>
-            <!-- <el-form-item label="状态" prop="status">
-                <el-input v-model="queryParams.status" placeholder="请输入问题点状态" clearable style="width: 240px"
-                    @keyup.enter="handleQuery" />
-            </el-form-item> -->
-            <el-form-item label="状态" prop="state">
+            <el-form-item label="状态" prop="status">
                 <el-select
-                    v-model="queryParams.state"
+                    v-model="queryParams.status"
                     placeholder="请选择问题点状态"
                     clearable
                     style="width: 240px"
@@ -54,10 +43,8 @@
                 </el-select>
             </el-form-item>
             <el-form-item label="分类" prop="category">
-                <!-- <el-input v-model="queryParams.category" placeholder="请输入问题点分类" clearable style="width: 240px"
-                    @keyup.enter="handleQuery" /> -->
                     <el-select
-                        v-model="queryParams.state"
+                        v-model="queryParams.category"
                         placeholder="请选择问题点分类"
                         clearable
                         style="width: 240px"
@@ -71,10 +58,8 @@
                     </el-select>
             </el-form-item>
             <el-form-item label="优先级" prop="priority">
-                <!-- <el-input v-model="queryParams.priority" placeholder="请输入问题点优先级" clearable style="width: 240px"
-                    @keyup.enter="handleQuery" /> -->
                     <el-select
-                        v-model="queryParams.state"
+                        v-model="queryParams.priority"
                         placeholder="请选择问题点优先级"
                         clearable
                         style="width: 240px"
@@ -88,8 +73,6 @@
                     </el-select>
             </el-form-item>
             <el-form-item label="影响度" prop="impact">
-                <!-- <el-input v-model="queryParams.priority" placeholder="请输入问题点优先级" clearable style="width: 240px"
-                    @keyup.enter="handleQuery" /> -->
                     <el-select
                         v-model="queryParams.impact"
                         placeholder="请选择问题点优先级"
@@ -104,7 +87,21 @@
                             />
                     </el-select>
             </el-form-item>
-            
+            <el-form-item label="处理人" prop="solve_user">
+                    <el-select
+                    v-model="queryParams.solve_user"
+                    placeholder="请选择处理人"
+                    clearable
+                    style="width: 240px"
+                    >
+                    <el-option
+                        v-for="dict in userlist"
+                        :key="dict.name"
+                        :label="dict.name"
+                        :value="dict.name"
+                    />
+                    </el-select>
+                </el-form-item>
             <!-- <el-form-item label="处理人" prop="solve_user">
                 <el-input v-model="queryParams.solve_user" placeholder="请输入处理人" clearable style="width: 240px"
                     @keyup.enter="handleQuery" />
@@ -169,32 +166,8 @@
             <el-table-column label="影响" align="center" prop="impact" :show-overflow-tooltip="true" />
             <el-table-column label="优先级" align="center" prop="priority" :show-overflow-tooltip="true" />
             <!-- <el-table-column label="详情" align="center" prop="description" :show-overflow-tooltip="true" /> -->
-            <!-- <el-table-column label="处理人" align="center" prop="solve_user" :show-overflow-tooltip="true" /> -->
+            <el-table-column label="处理人" align="center" prop="solve_user" :show-overflow-tooltip="true" />
             <el-table-column label="创建时间" align="center" prop="creationTime" :show-overflow-tooltip="true" />
-            <!-- <el-table-column label="状态" align="center" prop="isDeleted">
-            <template #default="scope">
-              <dict-tag
-                :options="sys_normal_disable"
-                :value="scope.row.isDeleted"
-              />
-            </template>
-          </el-table-column> -->
-            <!-- <el-table-column
-            label="备注"
-            align="center"
-            prop="remark"
-            :show-overflow-tooltip="true"
-          />
-          <el-table-column
-            label="创建时间"
-            align="center"
-            prop="creationTime"
-            width="180"
-          >
-            <template #default="scope">
-              <span>{{ parseTime(scope.row.creationTime) }}</span>
-            </template>
-          </el-table-column> -->
             <el-table-column label="操作" align="center" class-name="small-padding fixed-width" >
                 <template #default="scope">
                     <el-tooltip content="详情" placement="top" v-if="scope.row.userName != 'cc'">
@@ -221,37 +194,101 @@
                     <el-input v-model="form.title" placeholder="请输入标题" />
                 </el-form-item>
                 <el-form-item label="项目" prop="project">
-                    <el-input v-model="form.project" placeholder="请输入所属项目" />
-                </el-form-item>
-                <!-- <el-form-item label="状态" prop="status">
-                    <el-input v-model="form.status" placeholder="请输入状态" />
-                </el-form-item> -->
-                <el-form-item label="状态" prop="status">
                     <el-select
+                        v-model="form.project"
+                        placeholder="请输入问题点所属项目"
+                        clearable
+                        style="width: 240px"
+                        >
+                    <el-option
+                        v-for="dict in question_project_type"
+                        :key="dict.value"
+                        :label="dict.label"
+                        :value="dict.value"
+                    />
+                </el-select>
+            </el-form-item>
+            <el-form-item label="状态" prop="status">
+                <el-select
                     v-model="form.status"
                     placeholder="请选择问题点状态"
                     clearable
                     style="width: 240px"
-                    >
+                        >
                     <el-option
                         v-for="dict in status_type"
                         :key="dict.value"
                         :label="dict.label"
                         :value="dict.value"
                     />
+                </el-select>
+            </el-form-item>
+            <el-form-item label="分类" prop="category">
+                    <el-select
+                        v-model="form.category"
+                        placeholder="请选择问题点分类"
+                        clearable
+                        style="width: 240px"
+                            >
+                            <el-option
+                                v-for="dict in question_category_type"
+                                :key="dict.value"
+                                :label="dict.label"
+                                :value="dict.value"
+                            />
                     </el-select>
-                </el-form-item>
-                <el-form-item label="类别" prop="category">
-                    <el-input v-model="form.category" placeholder="请输入类别" />
-                </el-form-item>
-                <el-form-item label="影响" prop="impact">
-                    <el-input v-model="form.impact" placeholder="请输入影响" />
-                </el-form-item>
-                <el-form-item label="优先级" prop="priority">
-                    <el-input v-model="form.priority" placeholder="请输入优先级" />
-                </el-form-item>
+            </el-form-item>
+            <el-form-item label="优先级" prop="priority">
+                    <el-select
+                        v-model="form.priority"
+                        placeholder="请选择问题点优先级"
+                        clearable
+                        style="width: 240px"
+                            >
+                            <el-option
+                                v-for="dict in priority_type"
+                                :key="dict.value"
+                                :label="dict.label"
+                                :value="dict.value"
+                            />
+                    </el-select>
+            </el-form-item>
+            <el-form-item label="影响度" prop="impact">
+                    <el-select
+                        v-model="form.impact"
+                        placeholder="请选择问题点优先级"
+                        clearable
+                        style="width: 240px"
+                            >
+                            <el-option
+                                v-for="dict in impact_type"
+                                :key="dict.value"
+                                :label="dict.label"
+                                :value="dict.value"
+                            />
+                    </el-select>
+            </el-form-item>
+            
                 <el-form-item label="具体内容" prop="description">
                     <el-input v-model="form.description" placeholder="请输入具体内容"  type="textarea"/>
+                </el-form-item>
+                <el-form-item label="处理人" prop="solve_user">
+                    <el-select
+                    v-model="form.solve_user"
+                    placeholder="请选择处理人"
+                    clearable
+                    style="width: 240px"
+                    >
+                    <el-option
+                        v-for="dict in userlist"
+                        :key="dict.nick"
+                        :label="dict.nick"
+                        :value="dict.nick"
+                    />
+                    </el-select>
+                </el-form-item>
+                <el-form-item label="处理方法" prop="solve_description">
+                    <el-input v-model="form.solve_description" placeholder="请输入处理方法" type="textarea"/>
                 </el-form-item>
                 <el-form-item label="图片" prop="picturelist">
                     <el-upload
@@ -308,6 +345,8 @@
                 <el-descriptions-item label="优先级">{{questionList.priority}}</el-descriptions-item>
                 <el-descriptions-item label="详情">{{questionList.description}}</el-descriptions-item>
                 <el-descriptions-item label="创建时间">{{questionList.creationTime}}</el-descriptions-item>
+                <el-descriptions-item label="处理人">{{questionList.solve_user}}</el-descriptions-item>
+                <el-descriptions-item label="处理方法">{{questionList.solve_description}}</el-descriptions-item>
                 <el-descriptions-item label="图片">
                 <div class="demo-image__preview">
                     <el-image
@@ -331,7 +370,6 @@
 </template>
     
 <script setup name="Question">
-import { getInfo } from "@/api/login.js"
 import {
     listData,
     getData,
@@ -341,14 +379,11 @@ import {
 } from "@/api/question/question";
 import { ref } from "@vue/reactivity";
 import { uploadlist,getPicturePathlist, uploadpic} from "@/api/file";
-const userInfo =ref([]) ;
-getInfo().then((response)=>{ 
-    //userInfo = responses
-    //console.log(response.data.user);
-    userInfo.value=response.data.user;
-});
-
+import useUserStore from '@/store/modules/user'
 const router = useRouter();
+const UserStore = useUserStore();
+const userlist = UserStore.userlist;
+
 const { proxy } = getCurrentInstance();
 const { status_type } = proxy.useDict("status_type");
 const { question_project_type } = proxy.useDict("question_project_type");
@@ -394,6 +429,7 @@ const data = reactive({
         category: [{ required: true, message: "类别不能为空", trigger: "blur" }],
         impact: [{ required: true, message: "影响不能为空", trigger: "blur" }],
         priority: [{ required: true, message: "优先级不能为空", trigger: "blur" }],
+        solve_user: [{ required: true, message: "处理人不能为空", trigger: "blur" }],
     },
 });
 
