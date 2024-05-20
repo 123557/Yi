@@ -96,9 +96,9 @@
                     >
                     <el-option
                         v-for="dict in userlist"
-                        :key="dict.name"
-                        :label="dict.name"
-                        :value="dict.name"
+                        :key="dict.nick"
+                        :label="dict.nick"
+                        :value="dict.nick"
                     />
                     </el-select>
                 </el-form-item>

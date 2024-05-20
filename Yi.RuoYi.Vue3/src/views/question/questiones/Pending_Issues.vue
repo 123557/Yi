@@ -176,8 +176,7 @@
             <el-table-column label="操作" align="center" class-name="small-padding fixed-width" >
                 <template #default="scope">
                     <el-tooltip content="提交" placement="top" v-if="scope.row.userName != 'cc'">
-                    <el-button type="text" icon="Edit" @click="handleUpdate(scope.row)"
-                        v-hasPermi="['question:questiones:edit']"></el-button>
+                    <el-button type="text" icon="Edit" @click="handleUpdate(scope.row)"></el-button>
                     </el-tooltip>
                 </template>
             </el-table-column>

@@ -956,7 +956,7 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
             MenuEntity question = new MenuEntity(_guidGenerator.Create())
             {
 
-                MenuName = "问题管理",
+                MenuName = "问题点管理",
                 MenuType = MenuTypeEnum.Catalogue,
                 Router = "/question",
                 IsShow = true,
@@ -970,7 +970,7 @@ namespace Yi.Framework.Rbac.SqlSugarCore.DataSeeds
             MenuEntity questionlist = new MenuEntity(_guidGenerator.Create())
             {
 
-                MenuName = "问题列表",
+                MenuName = "问题点列表",
                 PermissionCode = "question:questiones:list",
                 MenuType = MenuTypeEnum.Menu,
                 Router = "questiones",

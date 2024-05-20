@@ -194,11 +194,11 @@
                     </el-tooltip>
                     <el-tooltip content="修改" placement="top" v-if="scope.row.userName != 'cc'">
                     <el-button type="text" icon="Edit" @click="handleUpdate(scope.row)"
-                        v-hasPermi="['question:questiones:edit']"></el-button>
+                        v-hasPermi="['myquestion:myquestion:edit']"></el-button>
                     </el-tooltip>
                     <el-tooltip content="删除" placement="top" v-if="scope.row.userName != 'cc'">
                     <el-button type="text" icon="Delete" @click="handleDelete(scope.row)"
-                        v-hasPermi="['question:questiones:remove']"></el-button>
+                        v-hasPermi="['myquestion:myquestion:remove']"></el-button>
                     </el-tooltip>
                 </template>
             </el-table-column>
